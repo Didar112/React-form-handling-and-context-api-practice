@@ -1,6 +1,7 @@
 
 import './App.css'
 import FormAction from './Components/FormAction/FormAction'
+import ProductManagement from './Components/ProductManagement/ProductManagement'
 import SimpleForm from './Components/SimpleForms/SimpleForm'
 import ControlledField from './ControlledField/ControlledField'
 import UncntrlledField from './Uncrontrolled/UncntrlledField'
@@ -16,7 +17,8 @@ function App() {
     {/* <FormAction></FormAction> */}
     {/* <ControlledField></ControlledField> */}
     {/* <UncntrlledField></UncntrlledField> */}
-    <UseCustomHook></UseCustomHook>
+    {/* <UseCustomHook></UseCustomHook> */}\
+    <ProductManagement></ProductManagement>
     </div>
   )
 }
